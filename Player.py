@@ -10,10 +10,10 @@ class Player:
 
 
 class Warrior(Player):
-    def __init__(self, name, mana, health, damage):
-        super.__init__(self, name, mana(0), health(10), damage(10))
+    def __init__(self, name, health, damage):
+        super.__init__(self, name, health(110), damage(10))
 
 
 class Wizard(Player):
     def __init__(self, name, mana, health, damage):
-        super.__init__(self, name, mana(100), health(10), damage(0))
+        super.__init__(self, name, mana(100), health(100), damage(15))
