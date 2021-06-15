@@ -17,3 +17,4 @@ class Warrior(Player):
 class Wizard(Player):
     def __init__(self, name, mana, health, damage):
         super.__init__(self, name, mana(100), health(100), damage(15))
+
