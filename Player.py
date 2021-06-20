@@ -5,7 +5,8 @@ class Player:
         self.mana = mana
         self.damage = damage
 
-    def attack(self):
+    def attack(self, damage):
+        self.damage -= damage
         pass
 
 

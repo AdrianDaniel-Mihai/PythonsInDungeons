@@ -22,3 +22,8 @@ class Rat(Enemy):
     def __init__(self):
         super(Rat, self).__init__(50, 4)
         print('Squack!')
+
+class Scorpion(Enemy):
+    def __init__(self):
+        super(Scorpion, self).__init__(90, 12)
+        print('Get over here!')
